@@ -16,7 +16,7 @@
   let chatHistory: { sender: string; text: string }[] = [];
 
   //  update this URL to match your backend
-  const BACKEND_URL = "http://127.0.0.1:8080";
+  const BACKEND_URL = "https://ai-ta-backend-249857968225.us-south1.run.app";
 
   async function askQuestion() {
     if (!question.trim()) return;
