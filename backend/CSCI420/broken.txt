@@ -1,0 +1,1054 @@
+http://youtube.com/watch?v=GM4BChGnX3g
+
+```json
+[
+  {
+    "start": "00:00",
+    "text": "So, what did we do last week?"
+  },
+  {
+    "start": "00:04",
+    "text": "Oh, wait, hold on, that wasn't last week. That was like two days ago, wasn't it?"
+  },
+  {
+    "start": "00:08",
+    "text": "It's been a long week."
+  },
+  {
+    "start": "00:15",
+    "text": "Made a website. We made a website. We put it on the internet. It was full of cats."
+  },
+  {
+    "start": "00:20",
+    "text": "All right. And then we played a little bit with PHP, all right? So we're going to go back to what we were doing and then continue on, all right?"
+  },
+  {
+    "start": "00:30",
+    "text": "Now, I just logged into AWS Educate and I'm really sad this morning because I went into key pairs and you can see there's only key. There isn't the one that we put there last week. Okay?"
+  },
+  {
+    "start": "00:43",
+    "text": "So, this is why it's important to save everything on your own machine, uh so that we can sort of get back to a point um easily, okay?"
+  },
+  {
+    "start": "00:54",
+    "text": "Um all right, so everyone want to take a guess what I need to do?"
+  },
+  {
+    "start": "01:01",
+    "text": "No."
+  },
+  {
+    "start": "01:04",
+    "text": "Import. Let's do an import because I already created one last week. I saved it to my computer, right?"
+  },
+  {
+    "start": "01:10",
+    "text": "That's also the one that's saved in Putty, that's also the save one that's saved in uh what is that called? Win SCP as well. So it'd be really good if we can just keep using the exact same key."
+  },
+  {
+    "start": "01:21",
+    "text": "All right, so I'm going to do import key pair, uh import key file, and then hopefully I go into my downloads and it's right at the top."
+  },
+  {
+    "start": "01:33",
+    "text": "Wait, why does this say a Microsoft Publisher document?"
+  },
+  {
+    "start": "01:37",
+    "text": "Hmm."
+  },
+  {
+    "start": "01:39",
+    "text": "Let's try to do the PPK."
+  },
+  {
+    "start": "01:44",
+    "text": "Key pair name."
+  },
+  {
+    "start": "01:46",
+    "text": "Um, I don't know, mine."
+  },
+  {
+    "start": "01:51",
+    "text": "Let's just call that Windows key."
+  },
+  {
+    "start": "01:53",
+    "text": "Uh doesn't matter what you call it. Import key pair."
+  },
+  {
+    "start": "01:59",
+    "text": "Well, that's not really what I wanted to hear. Shoot. Okay."
+  },
+  {
+    "start": "02:14",
+    "text": "Oh, hold on a second."
+  },
+  {
+    "start": "02:17",
+    "text": "What was that error message?"
+  },
+  {
+    "start": "02:21",
+    "text": "Oh, interesting. Okay. Here, let's just try to do this. Notice it should start with SSH-RSA. And that's actually in the file."
+  },
+  {
+    "start": "02:33",
+    "text": "Here, let's try to do that."
+  },
+  {
+    "start": "02:36",
+    "text": "Invalid format. Okay. I let's just do this."
+  },
+  {
+    "start": "02:52",
+    "text": "Okay."
+  },
+  {
+    "start": "03:23",
+    "text": "Oh, okay."
+  },
+  {
+    "start": "03:25",
+    "text": "Um, somebody should play with this and tell me how to do this."
+  },
+  {
+    "start": "03:28",
+    "text": "So, looks like we do need to create a new key pair. Has anybody had success importing it from the previous day?"
+  },
+  {
+    "start": "03:39",
+    "text": "Okay, so let's go back here. Let's do a create key pair. Um,"
+  },
+  {
+    "start": "03:52",
+    "text": "Uh, okay."
+  },
+  {
+    "start": "03:58",
+    "text": "All right, I'm going to leave this on pen."
+  },
+  {
+    "start": "04:17",
+    "text": "Okay. Um,"
+  },
+  {
+    "start": "04:28",
+    "text": "Question is, does Putty like that file type?"
+  },
+  {
+    "start": "04:41",
+    "text": "No."
+  },
+  {
+    "start": "04:52",
+    "text": "All right, we'll see if that works. There's a good chance that doesn't work. There are tools to convert uh between the two file types."
+  },
+  {
+    "start": "05:00",
+    "text": "All right. Um, the reason why I think it might be a good idea to download that first one, here, let me delete this one."
+  },
+  {
+    "start": "05:10",
+    "text": "Because I'm pretty sure you can import that file."
+  },
+  {
+    "start": "05:14",
+    "text": "Import."
+  },
+  {
+    "start": "05:44",
+    "text": "Okay. Well, hmm, mhm."
+  },
+  {
+    "start": "06:03",
+    "text": "Okay."
+  },
+  {
+    "start": "06:08",
+    "text": "And of course, I deleted that one, so I have to create a whole new one."
+  },
+  {
+    "start": "06:16",
+    "text": "Let's call this Windows 3. And we'll do the PPK. Create key pair. Save. There we go. Let's see. Is there anything I can do to this one?"
+  },
+  {
+    "start": "06:33",
+    "text": "No."
+  },
+  {
+    "start": "06:37",
+    "text": "Okay. Well, that's unfortunate. Um,"
+  },
+  {
+    "start": "06:46",
+    "text": "Yeah."
+  },
+  {
+    "start": "06:47",
+    "text": "Tomorrow night, on Friday night, after you go out trigger treating, start Googling this. There is a way to import a key pair on Windows. Okay?"
+  },
+  {
+    "start": "06:56",
+    "text": "Um, do you want me to show you for the Mac folks how to do this?"
+  },
+  {
+    "start": "07:01",
+    "text": "All right, let me show you how you should how to do this on Mac. Um,"
+  },
+  {
+    "start": "07:07",
+    "text": "Oh, shoot, I got to get logged in."
+  },
+  {
+    "start": "07:11",
+    "text": "Well, no, you know what? I'm going to see if this works properly. All right. Um, so I'm just going to on my Mac, going to uh do a CD tilda. SSH."
+  },
+  {
+    "start": "07:22",
+    "text": "Okay. Do you remember we created uh with SSH keygen. It created the two files, ID RSA and ID RSA.pub."
+  },
+  {
+    "start": "07:32",
+    "text": "Okay, somewhat remember this, all right? Now, if you just cat ID RSA.pub, that is your public key, all right? And copy that string to the clipboard, and now we're going to see if this goes through the um remote desktop. I think it will."
+  },
+  {
+    "start": "07:54",
+    "text": "And once you're in here, say actions, import key pair,"
+  },
+  {
+    "start": "08:01",
+    "text": "give it a name and then paste what you copied in the clipboard."
+  },
+  {
+    "start": "08:07",
+    "text": "Okay?"
+  },
+  {
+    "start": "08:09",
+    "text": "And then say import key pair. And notice that worked."
+  },
+  {
+    "start": "08:14",
+    "text": "Okay?"
+  },
+  {
+    "start": "08:15",
+    "text": "So, for the Mac users, that's a little bit easier. You never have to create another key um again."
+  },
+  {
+    "start": "08:21",
+    "text": "Okay? Uh all right. So, now that we have uh our key, all right, let's start up a machine."
+  },
+  {
+    "start": "08:30",
+    "text": "Sadly, nothing is there, so we'll do launch instance."
+  },
+  {
+    "start": "08:38",
+    "text": "Web server. Yeah, I misspelled that, but that's okay. Uh Amazon Linux, that's fine."
+  },
+  {
+    "start": "08:43",
+    "text": "Um should we do arm today just because for something different?"
+  },
+  {
+    "start": "08:47",
+    "text": "Let's do arm, and uh let's do the this one. Let's do the T3 micro."
+  },
+  {
+    "start": "08:54",
+    "text": "Oh, or T4 G small, looks like it changed that. That's fine."
+  },
+  {
+    "start": "08:59",
+    "text": "All right. Make sure we choose our key pair."
+  },
+  {
+    "start": "09:04",
+    "text": "All right. And since we're remembering things, let's allow HTTP traffic from the internet. Okay? Do you remember last class? This is also in the video, that you can change the um security group to allow port 80. Okay? Um we're just going to do that at the moment, all right? And then we just say launch instance."
+  },
+  {
+    "start": "09:24",
+    "text": "It does stuff."
+  },
+  {
+    "start": "09:37",
+    "text": "Okay, it says it's running. Good. And then we grab our IP address."
+  },
+  {
+    "start": "09:45",
+    "text": "Go into Putty. Let's change that to the PPK file that I finally just made."
+  },
+  {
+    "start": "09:53",
+    "text": "Okay. Go up to session. Paste the IP address in there. And uh I'm going to call this Thursday class."
+  },
+  {
+    "start": "10:03",
+    "text": "Okay? And then we'll hit save, and then open. Um and it's not cached, that's right. Accept. And now we get to log in um as what?"
+  },
+  {
+    "start": "10:17",
+    "text": "What?"
+  },
+  {
+    "start": "10:19",
+    "text": "EC2 users. EC2 user."
+  },
+  {
+    "start": "10:23",
+    "text": "Okay? Yay. And that worked. And now let me see if I can figure out how to make that font a whole lot bigger."
+  },
+  {
+    "start": "10:33",
+    "text": "Is it change settings?"
+  },
+  {
+    "start": "10:56",
+    "text": "There we go. All right, now you can't complain that you can't see it. Well, actually, it's hard to see what the projectors."
+  },
+  {
+    "start": "11:02",
+    "text": "I'm going to turn the lights down."
+  },
+  {
+    "start": "11:05",
+    "text": "Cool mode. Dark mode."
+  },
+  {
+    "start": "11:15",
+    "text": "All right, so we are now logged in. Yay. Now what?"
+  },
+  {
+    "start": "11:29",
+    "text": "Start what?"
+  },
+  {
+    "start": "11:35",
+    "text": "What's that?"
+  },
+  {
+    "start": "11:36",
+    "text": "Yeah, install the HTTP server. It's not installed yet, so this is why I suggest you find the commands that you want to use and then save them to a text file so you can just copy and paste them in, all right? Uh let's see if I can completely remember this correctly. So sudo uh yum install uh HTTPd and let's install PHP at the same time, and just in case uh I want to look into Emax, I'm going to install Emax as well. Okay? And no X means I don't want the windowed version. I want the text version, all right? So you can just list out the applications that you want to install."
+  },
+  {
+    "start": "12:21",
+    "text": "You probably just want HTTPd and PHP."
+  },
+  {
+    "start": "12:41",
+    "text": "Okay? All right, what's next? What's this is done?"
+  },
+  {
+    "start": "12:46",
+    "text": "What's that?"
+  },
+  {
+    "start": "12:48",
+    "text": "Uh yeah, we can transfer the files. Why don't I just make sure the web server starts?"
+  },
+  {
+    "start": "12:52",
+    "text": "All right? Um, so remember how we do that?"
+  },
+  {
+    "start": "12:57",
+    "text": "Yep, sudo system. Yep, sudo system CTL uh start HTTPd."
+  },
+  {
+    "start": "13:05",
+    "text": "Looks like that started. Okay, didn't get an error message. Uh and I probably still have the IP address in my clipboard. So let me just put that in there. Hit enter."
+  },
+  {
+    "start": "13:17",
+    "text": "Actually, hit stop first. I probably want to do this."
+  },
+  {
+    "start": "13:23",
+    "text": "Yay. Okay? Put HTTP at the very beginning and it works. Okay? All right, now let's upload the files."
+  },
+  {
+    "start": "13:30",
+    "text": "Okay? So, we're going to come over here to um let's just cancel that. Yeah, I know that failed. Um,"
+  },
+  {
+    "start": "13:40",
+    "text": "Uh,"
+  },
+  {
+    "start": "13:46",
+    "text": "Yeah."
+  },
+  {
+    "start": "13:48",
+    "text": "So we're going to X out that, and we're going to say host name, uh paste that um IP address, um username EC2 user."
+  },
+  {
+    "start": "14:01",
+    "text": "Uh let's see, advanced."
+  },
+  {
+    "start": "14:07",
+    "text": "Uh authentication, private key file, is that PPK that we just created."
+  },
+  {
+    "start": "14:15",
+    "text": "And okay."
+  },
+  {
+    "start": "14:18",
+    "text": "And then log in. And make sure that's SFTP."
+  },
+  {
+    "start": "14:23",
+    "text": "And log in. Yes, let's accept that. Hey. Okay."
+  },
+  {
+    "start": "14:29",
+    "text": "So there we go, all right? So now the right hand side is the other machine and it looks like, yeah, from Tuesday I am still in the same folder. So I have cat cat PHP, download 1, download 2, uh and index.html, all right? So then let's upload all of them."
+  },
+  {
+    "start": "14:48",
+    "text": "All right? So I'm going to highlight all of those, uh hit upload. Where do I want to put them? Um actually, you know what? Let's see if we can just get lucky and put it in the web serving directory."
+  },
+  {
+    "start": "15:00",
+    "text": "Var/www/html."
+  },
+  {
+    "start": "15:05",
+    "text": "Okay?"
+  },
+  {
+    "start": "15:08",
+    "text": "Um, yeah, that's what I want to do."
+  },
+  {
+    "start": "15:14",
+    "text": "And we get a cannot overwrite remote file."
+  },
+  {
+    "start": "15:20",
+    "text": "All right? Any ideas why we're getting that?"
+  },
+  {
+    "start": "15:34",
+    "text": "Thoughts?"
+  },
+  {
+    "start": "15:36",
+    "text": "I know, we didn't get this error message last time."
+  },
+  {
+    "start": "15:48",
+    "text": "Uh, okay, with the star.star, uh now we get a permission denied. All right, why are we getting a permission denied?"
+  },
+  {
+    "start": "16:03",
+    "text": "I don't have permissions, right. Okay, all right? Who what user is it trying to write those files as on the server?"
+  },
+  {
+    "start": "16:11",
+    "text": "What?"
+  },
+  {
+    "start": "16:12",
+    "text": "Yeah, EC2 user, right? Which does not have permission to write to that folder, okay? So we will just um exit out of that and now let's do a regular upload into our home directory."
+  },
+  {
+    "start": "16:28",
+    "text": "All right, everyone in there? Excellent. Um, and now over here, now if I do an LS, I can see everything right there. Okay? All right, how do I get this into my web serving directory?"
+  },
+  {
+    "start": "16:42",
+    "text": "Good. Keep going."
+  },
+  {
+    "start": "16:46",
+    "text": "Yep."
+  },
+  {
+    "start": "16:49",
+    "text": "Yep, just like that, right? Sudo, so do this as uh pretend to be the root user, copy, star means everything inside this folder to that location, and now I hit enter. Hopefully that worked. Uh and now we can come back to our web browser and there's the shrine to the cat. And actually, cool, the image is working."
+  },
+  {
+    "start": "17:12",
+    "text": "Why aren't the other ones there?"
+  },
+  {
+    "start": "17:14",
+    "text": "Oh, I think I know why. This is the index.html page."
+  },
+  {
+    "start": "17:18",
+    "text": "Um, oh, let me just show you something. This is the index.html. I think the other one was what? cat.php."
+  },
+  {
+    "start": "17:24",
+    "text": "Okay? And this one has those other cat pictures in it. Um but it also has this dynamically generated table at the bottom left."
+  },
+  {
+    "start": "17:34",
+    "text": "Okay? All right? Um, let me just show you one thing that you can do so that it defaults to the PHP. Anybody have any ideas how to do that?"
+  },
+  {
+    "start": "17:56",
+    "text": "So we're just going to change the name of some of these uh files. Um,"
+  },
+  {
+    "start": "18:01",
+    "text": "We're going to do an RM of the index.html and then we're going to move cat, why doesn't uh oh, do you want to oh, I can't do that."
+  },
+  {
+    "start": "18:11",
+    "text": "Let's control C that. I can't do that because this is in the uh web serving directory. Okay? Remember, I am doing this in var www html. So if I were to make any changes to this and I upload it, it's not going to have the right file name. This is more of just a demonstration. So CD um MV cat.php to index.php."
+  },
+  {
+    "start": "18:33",
+    "text": "Okay? And now if I do an LS, now notice there's a oh, it looks like my I still have two files, index.html and index.php. All right, so we'll we'll see which one it defaults to. I'm not sure."
+  },
+  {
+    "start": "18:52",
+    "text": "Defaults to the HTML. All right. Well, I don't really want that. Um, so we are just going to sudo RM index.html."
+  },
+  {
+    "start": "19:01",
+    "text": "Gone. And now it should grab the Perfect. The index.php page."
+  },
+  {
+    "start": "19:08",
+    "text": "Okay? Is that cool? Does that make sense?"
+  },
+  {
+    "start": "19:12",
+    "text": "Okay. So looking at the homework assignment, oh, actually, is that it right there? Yeah, actually, it's sort of convenient doing this on Windows because the only thing I do on this is this class."
+  },
+  {
+    "start": "19:27",
+    "text": "Uh let's make that a whole lot bigger so you can see it. Um, so create at least one PHP page."
+  },
+  {
+    "start": "19:33",
+    "text": "Uh, one HTML page, all right? Um, prefe oh, hold on."
+  },
+  {
+    "start": "19:40",
+    "text": "I'm changing the assignment right here."
+  },
+  {
+    "start": "19:47",
+    "text": "With links between the two. All right. Let's do that. How do you do make links between the two pages?"
+  },
+  {
+    "start": "19:55",
+    "text": "Yep, it's an A tag with an H ref. Okay? Uh so let me just Oh, how convenient. It's still here from last time."
+  },
+  {
+    "start": "20:07",
+    "text": "All right, so here is cat.php and index.p uh sorry, index.html. Um let's see. I don't know who we want to do this."
+  },
+  {
+    "start": "20:20",
+    "text": "This is not going to look great, but that's okay. Um so it's a H ref uh is equal to quote uh index.html."
+  },
+  {
+    "start": "20:32",
+    "text": "Oh, look at that, back to home. Yeah, that's a good text. Can you guys see that?"
+  },
+  {
+    "start": "20:38",
+    "text": "It seems like everything is just smaller today. Uh so what this A tag is, it's an H ref. Um, uh A tag is a link, all right? So let me save this and I think I still have Chrome open to that."
+  },
+  {
+    "start": "20:54",
+    "text": "No, I don't. So let's just open a new tab because why not?"
+  },
+  {
+    "start": "21:02",
+    "text": "Is there a recent? No, I got to find it."
+  },
+  {
+    "start": "21:08",
+    "text": "Remember, this is an HTML file, so uh Chrome can display it."
+  },
+  {
+    "start": "21:25",
+    "text": "Oh, sorry. I am saying one thing and doing another. So I changed this in cat.php. Okay? Now, I will put this a very similar link in index. So control copy over here."
+  },
+  {
+    "start": "21:44",
+    "text": "Oh, by the way, where in this file could I put this?"
+  },
+  {
+    "start": "21:54",
+    "text": "Can you guys see that?"
+  },
+  {
+    "start": "22:03",
+    "text": "Is that too small for you guys to see?"
+  },
+  {
+    "start": "22:07",
+    "text": "Not really. Okay, good. So I just pasted this uh A A tag into index.html. Let me come over here and just refresh this. And now you can oh, this is horrible. This is really hard to see. But anyway, there's the link. Super ugly. Okay?"
+  },
+  {
+    "start": "22:26",
+    "text": "All right? Um, yep. And if I click that, it's going to go to the PHP. Now, because this is in my web browser and served locally on my Windows machine, it cannot interpret this, so it doesn't know what to do with this. Okay? If I was to upload this to the website, um it would work actually as it should. Okay?"
+  },
+  {
+    "start": "22:49",
+    "text": "Okay. So there I I do have hyperlinks that go between the two. Um, what else do you want me to show you how to do?"
+  },
+  {
+    "start": "22:58",
+    "text": "Four images on the page? Okay, all stored and served from Okay, all right, I was trying not to have to discuss this, but let's discuss this. Let me see if I can make this text bigger. There you go. I can."
+  },
+  {
+    "start": "23:16",
+    "text": "All right, let's talk about this H ref tag."
+  },
+  {
+    "start": "23:23",
+    "text": "Okay. Uh all right, so cat.php. All right, I'm going to make a couple copies of this and we are going to discuss the differences between them."
+  },
+  {
+    "start": "23:58",
+    "text": "Okay."
+  },
+  {
+    "start": "24:00",
+    "text": "Everybody see that? Okay. So I already did line 117. Okay? Look at the others. We have cat.php, we have /cat.php, uh HTTP colon/ slash something IP address/cat.php and ../cat.php. What are what do each of them do?"
+  },
+  {
+    "start": "24:24",
+    "text": "Obviously, they're different."
+  },
+  {
+    "start": "24:33",
+    "text": "Any guesses?"
+  },
+  {
+    "start": "24:36",
+    "text": "Are the first two the same? No, but they both will work. Okay?"
+  },
+  {
+    "start": "24:45",
+    "text": "Okay?"
+  },
+  {
+    "start": "24:46",
+    "text": "All right? The one 119, the third one is not going to work. Okay? Now, I can I can make it work if I'm a little sneaky, and that is if I actually use the right IP address, that will work."
+  },
+  {
+    "start": "25:13",
+    "text": "Well, putting in too many too many HTTPs, but that's fine."
+  },
+  {
+    "start": "25:17",
+    "text": "Okay, there we go. So now that will work. All right, what about the fourth one?"
+  },
+  {
+    "start": "25:24",
+    "text": "Where have we seen dot dot before?"
+  },
+  {
+    "start": "25:27",
+    "text": "Yeah, so that's the previous folder, okay, right? Now, I want to talk about because there's really two types of um locations in there, okay? So this one, okay? And I'll just put a comment right here. I know, this is not the right way to do a comment, but that's okay. Um, this is what's called a relative link. Okay? Relative to where this current page is, look in the same folder for cat.php."
+  },
+  {
+    "start": "25:58",
+    "text": "Got that? Okay? The next one, it's called an absolute link. Wow, that is creepy. Okay, yep, that's an absolute link. All right? And that that means the root document of this website. Okay? Now, relative, this could be in some crazy folder someplace. Okay? All right, in the path, and it will just look in the exact same folder. This will always look in the slash, which is the root directory of var www html, really your document root. Do you get that? Okay? On whatever machine you are currently viewing. Okay? Now, the third option is also an absolute link. Here, let's actually see what I uh."
+  },
+  {
+    "start": "26:45",
+    "text": "Oh, there you go. A full URL link. Sure, right? And so this actually specifies which machine to contact, what protocol to use, and what file on their file system to download. Okay?"
+  },
+  {
+    "start": "27:00",
+    "text_": "All right? Um, and then this one, what does everybody think? Is this a relative link or an absolute link?"
+  },
+  {
+    "start": "27:09",
+    "text": "What's that? Yeah, it's a relative. Okay, yeah, parent directory link, right? I would I would call that a relative link. Back a folder. Okay?"
+  },
+  {
+    "start": "27:21",
+    "text": "All right? Now, in all of my years of developing websites, I maybe can I've done this once. Okay? Anybody have any ideas why you don't want to do that?"
+  },
+  {
+    "start": "27:44",
+    "text": "Yep, if the file structure changes, yeah, it changes. But really, with this with the IP address listed, that is the only computer that will work. If you move that to a different server, you got to change your code. Okay? And you probably will never want to do that. Maybe you put in the domain name that you're going to buy, but again, that's really dangerous too because there's no way for you to run that on your own machine and make sure it works before you put it up to the server because it's going to be going to the wrong location. Okay?"
+  },
+  {
+    "start": "28:21",
+    "text": "All right? So we very rarely do stuff like this. Okay? Uh yeah, all right? So very often you do a relative link, you do an absolute and an absolute link, okay? Um occasionally you'll also do the dot dot, but that's just another relative link, okay? Now, this policy that I've been talking about right here also goes with images. Okay? So where just based on context, where is cat.png in the file system?"
+  },
+  {
+    "start": "28:54",
+    "text": "Right, it's the same folder wherever this page is. Okay? And in development experience, I never do this. I always have a folder called images or IMG and that's where I shove all of my images. Actually, I'll be honest with you. Usually, I have two image folders, all right? I have a thumbnail folder, and then I have an images folder. Okay? Thumbnails are like little like things that I change on the page, you know, like uh the bullet thing on some web pages, well, I want to change that to be something else, so that goes in there, okay? Images would be like the cat pictures. Okay? All right? So feel free to to to to create some structure um to your folders so that you can keep uh track of stuff. Okay? All right, is that a little bit clearer? For our purposes in this course, just put everything in the same folder, all right? But do not do this, all right? Because it might work for you, but it's not going to work for me if I try to run this. It's also going to cause problems because I'm not sure if anybody noticed, but my public IP address right now is different than last week. Okay? So as soon as I hard hard code that, it's not going to work uh the next time you try to try to work."
+  },
+  {
+    "start": "30:11",
+    "text_": "Okay? Um, I know this isn't an HTML class, but all right, any ideas what a div does? Oh, there you go. This is being too too too nice. Uh no special meaning."
+  },
+  {
+    "start": "30:26",
+    "text": "It represents its children. Hmm."
+  },
+  {
+    "start": "30:29",
+    "text": "Yeah, it's used to group things together, okay? The more useful use case of a div is you'll notice this has class container. Okay? If I scroll up here, notice um AI has created uh let's see where is it? This is what's called uh CSS content. Shrine, there you go, container. Okay?"
+  },
+  {
+    "start": "30:59",
+    "text": "So that is the definition for how the container div should be displayed on the screen. Okay? So it's sort of like labeling elements, all right? So you can see it has a max width, margins, it's got some padding. Um, it doesn't have a background color because likely that is specified, yeah, right here. The entire HTML and the body has a has a specific background color applied to it. Okay? Again, this is a networking course, not web dev. So if you're interested in this, go watch all the videos online. Um or you can come to my office. I have a web development for Dummies book from like 1998, which is like probably an antique at the moment, but not much is really changed. CSS is new. Um now we're doing stuff with lots of um dynamic web applications, but yeah. Okay? So that's what that container thing does."
+  },
+  {
+    "start": "31:56",
+    "text": "Okay? And there's nothing specific or uh great about saying that this is class container. If you want to call this class Bob, as long as it's defined up top what Bob is, that completely works. Okay? Um, is this is, yeah, this is index.html. So let me I'm just going to copy and paste this and put it inside the container and you'll see how things change."
+  },
+  {
+    "start": "32:21",
+    "text": "Also, indentation doesn't make any difference. It only makes a difference for us humans trying to read the source code. All right? I'm going to put that inside the container. Oh, by the way, oh, sorry, there's lots of things here. Um, most tags in HTML are in closing tags, meaning they have a beginning tag and an ending tag. Okay? The ending tag is like a slash and then the tag name. Okay? Most tags are like that. Div is like that. Body is like that. You see here, you can see the end of head, you have the end of the style tag. Um, H1 is like that, P is like that."
+  },
+  {
+    "start": "33:02",
+    "text": "Do you remember any one that isn't?"
+  },
+  {
+    "start": "33:05",
+    "text": "Let's see if I can get one on the screen. Actually, there's one on the screen that does not have an ending tag."
+  },
+  {
+    "start": "33:10",
+    "text": "Yeah, the IMG tag does not have an ending tag. Okay? All right? Um, I can't think of any others off the top of my head."
+  },
+  {
+    "start": "33:20",
+    "text": "Okay? All right, so I just saved that. Let's take a look at what that looks like."
+  },
+  {
+    "start": "33:28",
+    "text": "Let's go into my local machine."
+  },
+  {
+    "start": "33:32",
+    "text": "Okay, so now those links are right here and oh, yeah, slash slash is not the way to do comments in HTML. Anybody know how you do comments?"
+  },
+  {
+    "start": "33:48",
+    "text": "It's that. It looks really weird."
+  },
+  {
+    "start": "33:53",
+    "text": "Okay? So it's a less than, oops, less than exclamation point dash dash and that has to have a beginning and end. Uh let's not even do a comment there. Yeah. Okay. As soon as I save that."
+  },
+  {
+    "start": "34:15",
+    "text": "Let's go view that. Refresh that. And now you can barely see them. Oh, you know what? Let me just show you a little bit of CSS. Anybody know any sneaky ways that I can change the text of all of that?"
+  },
+  {
+    "start": "34:34",
+    "text": "Yep, yep, okay? So what we're going to do is we're going to change the CSS. Good. So we're going to change the CSS just a little bit. Um, and it's not going to be dot anything. Well, it could be. If I wanted to give it a custom uh class, and by the way, when it says class, that is not like object-oriented class. All right? Uh if you notice all of these have a dot in front of it, that means that's a custom tag. If you notice there's a p.lead, okay? P is anywhere there is a p tag, it will take that. Anywhere there's an H1 tag, it will take this. Okay? So let's just do an A curly brace."
+  },
+  {
+    "start": "35:18",
+    "text": "Oh, okay. All right, um and how do you do colors again?"
+  },
+  {
+    "start": "35:28",
+    "text": "I think it's just text color."
+  },
+  {
+    "start": "35:34",
+    "text": "No, I would just call it."
+  },
+  {
+    "start": "35:39",
+    "text": "Oh, okay. All right, so AI is sort of useful. Um, so color can you can give it actually a couple different things. So notice, um what does this look like to you? Hashtag 0B1320."
+  },
+  {
+    "start": "35:57",
+    "text": "What's that? Uh no, it's actually not straight black. It's pretty close though. Once you do web dev for a while, this becomes to be your favorite color specification. This is in hex. Okay? And colors are three bytes. Okay? So, the first two, well, hex digits, 0B is the redness of that color. The next 13, uh is the greenness, and the last two is the blueness. Okay? All right, so, 0B, well, that's really, really low, okay? Uh 13, that's that's higher, but still not very bright. Um and 20, that's still not very bright at all. So what would be completely black?"
+  },
+  {
+    "start": "36:44",
+    "text": "Zeros, right? So you can do 000000. Okay? All right? So that is completely all black. Okay? I'm not sure if you saw this, but it actually there is a a little bit of a shortcut. If you want to be super lazy, that is also allowed. And I know that's not the full, but that turns out to be black. Okay? You don't have to specify both hex digits. You can just use one, but I always just usually specify all of them."
+  },
+  {
+    "start": "37:28",
+    "text": "Oh yeah, and actually black is a bad choice, um because it's a really dark background. So probably what color do you want?"
+  },
+  {
+    "start": "37:37",
+    "text": "Yeah, let's do white. What's white?"
+  },
+  {
+    "start": "37:40",
+    "text": "All F's. Yep. One, two, three, four, five, six. Okay?"
+  },
+  {
+    "start": "37:46",
+    "text": "All right? And let me just save that. Control S. Come back here, refresh, and you see now my hyperlinks are completely white. It no longer looks like a hyperlink anymore, but um yeah, okay? So anywhere I have a A tag on my page, it will now take that style attribute that I had. Okay?"
+  },
+  {
+    "start": "38:08",
+    "text": "Um,"
+  },
+  {
+    "start": "38:13",
+    "text": "Okay. Uh, what else am I going to show you?"
+  },
+  {
+    "start": "38:23",
+    "text": "Are we ready for benchmarking?"
+  },
+  {
+    "start": "38:25",
+    "text": "Okay? All right, so let me show you benchmarking. All right. So we already uh have the ability to download it on your web browser. Okay? I think last class I also showed you in the developer tools. You can look at um how fast the page got downloaded. Actually, let's bring that up. Talk about it for just a little bit more. Developer tools. Um and then let me do shift and I'm going to press the reset button. All right? And if you look really hard here, here is the original uh get request. Uh and it's okay, which means it's there. Um oh, keep alive connection."
+  },
+  {
+    "start": "39:10",
+    "text": "What do you think that means?"
+  },
+  {
+    "start": "39:13",
+    "text": "Connection keep alive. And by the way, this is in the response back from the server. What the keep alive does is it keeps the TCP connection open for more communication. Okay? So that is a now default that greatly speeds up your web app your web apps because you don't have to do that three-way handshake for every single resource on your page. Okay?"
+  },
+  {
+    "start": "39:44",
+    "text": "Uh so all of these others things that got downloaded, um, we're probably going over the exact same TCP connection. Okay? All right, so you can see."
+  },
+  {
+    "start": "39:55",
+    "text": "I'm not sure if you can see this, but this first one, that is the original HTML page. Oh, this is not Oh, isn't this interesting? Oh, that's cool. This is the first time I've seen this. You can put like Windows and see what is inside that timing window, all right? So over here, this was index.html. As it was reading that, it was parsing it. It found it also needed cat.jpg, download.jpg. Uh it looks like local storage and some other things."
+  },
+  {
+    "start": "40:27",
+    "text": "Okay? Um and some fonts as well. Oh, that's a extension for different fonts. Yes, okay? So."
+  },
+  {
+    "start": "40:36",
+    "text": "Let's just take a look at and what's important here?"
+  },
+  {
+    "start": "40:47",
+    "text": "Timing. Okay. So if you look at this timing, you can see here we have uh resource scheduling. This is like inside the web browser. If it has to get delayed for any reason, I'm sure that's going to be queuing. Uh connection stall is the TCP connection, right? So it stalled for practically nothing. It did the DNS lookup in seven microseconds."
+  },
+  {
+    "start": "41:16",
+    "text": "Why is that so fast?"
+  },
+  {
+    "start": "41:22",
+    "text": "Because it's an IP address, there's no DNS lookup. Okay? That's probably why it's so it's so low, okay? That's another thing to remember. Every single resource on your web page likely has a DNS request, so you better make sure your DNS is fast. Okay? All right, DNS lookup and then the initial connection took 21.87 milliseconds."
+  },
+  {
+    "start": "41:52",
+    "text_": "Okay? So the request went there. Hey, give me this page. That was right there. Wait, wait, wait, wait. The page came down in 1.16 milliseconds, uh and then we got the entire page to the web browser in 49 milliseconds. Okay?"
+  },
+  {
+    "start": "42:11",
+    "text": "All right, so."
+  },
+  {
+    "start": "42:14",
+    "text": "Let's talk about this. What happened during this content download?"
+  },
+  {
+    "start": "42:29",
+    "text": "It's dependent on the web server speed, the distance from you to the web server, all of the path between the two, bandwidth, latency, all of that is sort of baked inside there, okay? Um, yeah, all right, so this is very useful if you're trying to figure out why an indi excuse me, an individual page is pretty slow. Okay?"
+  },
+  {
+    "start": "42:48",
+    "text": "Okay. So what I want you to do for for the homework, that was not really required for the homework. What I want you to do for the for the homework is use a tool called AB. Okay? Now, this is called Apache bench."
+  },
+  {
+    "start": "43:01",
+    "text": "All right? Uh and it's a benchmarking tool for the Apache web server. Actually, it can be used for any web server, but Apache made it to to make their web server faster. Okay? So this is how you use it. Um, the the unfortunate part is you can't just download AB."
+  },
+  {
+    "start": "43:20",
+    "text": "Um, so I'm going to do this in uh Windows. For the for the Mac users, it might already be installed. If you just type AB on the command line, um and hit enter, see if it actually comes up."
+  },
+  {
+    "start": "43:34",
+    "text": "All right? Um and what we want"
+  },
+  {
+    "start": "43:40",
+    "text": "Oh yeah, okay, so it's just part of the main download."
+  },
+  {
+    "start": "44:05",
+    "text": "Wait, where is the download button?"
+  },
+  {
+    "start": "44:42",
+    "text": "Hmm."
+  },
+  {
+    "start": "44:45",
+    "text": "Okay, I'm just going to take a wild guess and I'm going to click this, which is probably going to take me to not what I want. Let's cancel that."
+  },
+  {
+    "start": "45:06",
+    "text": "Oh, we can't use Windows XP or Server 2003. That's sad."
+  },
+  {
+    "start": "45:19",
+    "text": "All right, well, maybe my link is bad."
+  },
+  {
+    "start": "45:52",
+    "text": "Okay."
+  },
+  {
+    "start": "45:54",
+    "text": "All right. I will um I bet that's going to be a better one to use."
+  },
+  {
+    "start": "46:12",
+    "text": "Okay."
+  },
+  {
+    "start": "46:13",
+    "text": "All right. And we're going to grab this one."
+  },
+  {
+    "start": "46:23",
+    "text": "Okay, and that's a zip file."
+  },
+  {
+    "start": "46:29",
+    "text": "Okay, that's downloaded. Uh next I'm going to go into that my downloads folder."
+  },
+  {
+    "start": "46:37",
+    "text": "Extract that."
+  },
+  {
+    "start": "46:48",
+    "text": "Go try to find that folder because it's at the bottom."
+  },
+  {
+    "start": "47:02",
+    "text": "Oh, there you go."
+  },
+  {
+    "start": "47:07",
+    "text": "Okay, so notice where I'm going. So I'm in I extracted that folder. Inside of that is an Apache 24 folder. Inside of there is a bin directory and inside of that, notice there is ab.exe, okay? There's obviously a lot of other executables in here. We're only interested in ab.exe, okay? Um, so I guess maybe for simplicity, what I'm going to do is I'm going to copy that file to the clipboard and then put that in my root downloads directory. Okay? So because we're going to have to run that from the command line."
+  },
+  {
+    "start": "47:44",
+    "text": "Okay? Now, or you can sort of navigate all the way in there in that extracted folder. But I'm just going to put it in my downloads folder. Okay? All right, once you do that, then let's open up a Windows terminal."
+  },
+  {
+    "start": "47:58",
+    "text": "Yeah, I don't know how to make that bigger."
+  },
+  {
+    "start": "48:03",
+    "text": "I don't know how to make that bigger. Uh and then I'm going to go CD uh downloads, okay? AB.exe. And now the executable works. Okay? Um, I am 95% sure all of the options are identical from this versus the Mac folks. Okay? So please everybody do it and let me know if there's any differences. I'm going to do this uh on Windows."
+  },
+  {
+    "start": "48:33",
+    "text": "What was the command? It was just do whatever pops up on the machine. Correct. Yeah. Because you are emulating a final user. You're on a Wi-Fi connection. Okay? All right? Yeah."
+  },
+  {
+    "start": "48:51",
+    "text": "Okay. All right, so I have N100 C10 and I'm going to hit enter."
+  },
+  {
+    "start": "48:58",
+    "text": "All right? And did you notice over here? Well, actually, that was pretty quite fast. Um, there was a bunch of HTTPd lines showing up over here. Okay? That's because the server is multi-threaded. Oh, somebody just did another one. The server is multi-threaded, right? And it's having multiple threads, uh, handle that. Okay. Oh, excellent. Okay. So here's the request, the responses, and the timing, all right? Um, so, um yeah, so this tells you how much uh data was transferred. Uh, how many requests per second on average it was able to handle? Uh, time per request, uh and then mean across all of them, transfer rate. Yeah, all that's not super important. Um, this is sort of useful to see, all right? So notice the connect on average is still quite low. That's only 21 milliseconds. Um, by the way, what are everybody else's numbers?"
+  },
+  {
+    "start": "53:50",
+    "text_": "You had 95. Okay. All right. For the for the mean connect. 41. Okay, okay, so that's not horrible. All right? So that was the three-way handshake, okay? Processing, meaning it sent the request and it's waiting for something to come back. And finally, it took 16 um milliseconds to get the the rest of the the data. Okay? All right, so of my numbers, you can see that my connect is the highest. Okay? Which of those numbers, connect processing and waiting, depends on the complexity of your PHP?"
+  },
+  {
+    "start": "55:04",
+    "text": "The waiting, right? The waiting, right? The connect, it's not even touching the web server. That's just operating system stuff. The processing, all right? Um, it's doing the PHP and it doesn't hasn't gotten any results yet. Uh and the waiting is how large that how much processing was done by the PHP. Okay? All right? So, all right, questions on this?"
+  },
+  {
+    "start": "55:28",
+    "text": "All right, now just for fun here, I'm going to bring up my Putty window. Oh, okay. This also happens occasionally. Is it will just disconnect. Um and hopefully we oh, actually, it looks like oh, okay, that looks like still connected. So that's good. Win SCP. Um I'm just going to open up Putty again."
+  },
+  {
+    "start": "55:58",
+    "text": "And hopefully, I have two sorry, Thursday class. Let's load that information. Open. Log in as EC2 user."
+  },
+  {
+    "start": "56:14",
+    "text": "I can't make it big. Easily. Okay, um, is it here?"
+  },
+  {
+    "start": "56:37",
+    "text": "Okay. All right, there we go. All right, now what I'm going to do on the web server, you can probably do this, um on when you're doing your homework, but run top, okay? Top is like the um, what is it, Windows? Task Manager. It's like Task Manager. Um, it is command line, and it shows the top processes running on that machine. Um, and to get out of this, you just type the Q character. Okay?"
+  },
+  {
+    "start": "57:04",
+    "text": "Is top. Is top. Remember, this is Linux, actually, this runs on Mac too, but you need to be logged into your web server for this to work. Okay? So you can see that it's been uh up and running for 47 minutes. I'm the only there's only one user logged in. Uh, the load average, uh this these three numbers is, I'm going to get these wrong, but I think it's like over the last 10 seconds, 30 seconds, and five minutes. All right? And you can see it's all zero, which means this system is completely bored. It is not doing anything whatsoever. You can see the top program running right now. Well, it was top. All right? Even though we do have a web server running. Oh, all right, there's the web server. It did something. Did anybody just request a page? Okay, maybe somebody did. Or it might have been a bot trying to download. All right, so there's the web server waking up again. All right? Uh, other things that you can do is if you press the S key, you can change the delay. By default, it's three seconds, and because I want to see things happen faster, I'm going to put 0.05. Hit enter, and now this page is going to update twice a second. Okay? So any small program changes, we're going to see pretty quickly. Okay? So you can see there's top there and system CTL is doing stuff, all right? Um and what I'm going to do is I'm going to keep this up and running and I'm going to come down here, make this window smaller. Okay? Um and I'm just going to run that command again. Okay? And you can see slightly different numbers. Okay?"
+  },
+  {
+    "start": "59:30",
+    "text": "Okay? All right, but time per request was like 46 milliseconds. Okay? All right? Okay, so now let's have fun with this a little bit. All right? Um, before this, do a dash N uh 20."
+  },
+  {
+    "start": "59:44",
+    "text": "Okay? Now, anybody had the little manual for AB. N is the number of requests to send. Okay? So this is going to make 20 requests."
+  },
+  {
+    "start": "59:55",
+    "text": "Okay?"
+  },
+  {
+    "start": "59:58",
+    "text": "And now, you can see that there's slightly different things here, right? Time per request per second, 22 per second. Mean is 44 milliseconds. That's pretty good, all right? Uh you can see here about 45 milliseconds, so that's pretty good. Uh and then this gives a percentage of requests served within a certain amount of time. Okay? This is the most important and sort of the most interesting part of this out uh output here, okay? So, it made 20 requests, okay? And out of all of them, all right? 100% of the requests were made within 53 milliseconds. Okay?"
+  },
+  {
+    "start": "01:00:41",
+    "text": "All right?"
+  },
+  {
+    "start": "01:00:42",
+    "text": "50% of them had 47. Okay? So you can see 47 and 53 is practically the same number. Okay? All right? Um, all right, so what we're going to do is we're going to do this command again. And uh actually, let's just do 100. This is going to take longer. And if you see HTTPd was up there a couple times. All right? And you can see actually, nothing really has changed. Now we're still 47 and 55."
+  },
+  {
+    "start": "01:01:17",
+    "text": "Okay? So it made 100 requests. Who by the way, is is doing this on their computer? How many people? Just wondering. One, two, three. Okay, three people. All right, this is the fun part. Is because really, oh, somebody just did another one. All right? This is showing all the requests that anybody is doing. Okay? Um, all right, 10:37. I guess other things in here. We've already talked about security groups a little bit. That's the firewall specification. Um, elastic IPs is useful to know about. So, hey, let me just do something. Let me just demonstrate this. So right now we're running the web server, all right? And uh let me just verify this still works. Yeah, let me refresh that page. Yeah, it's working. Nice and fast. Excuse me. That's good. All right? Um, all right, so, uh, let's see. Do I still have Putty running? Okay, so connection has been disconnected. The machine is down. Let me come back to the web server, and waiting, waiting, waiting, waiting. So there it's not we're actually not even getting a response. Okay? All right, which makes sense. I turned off the machine. You can see it's still spinning up there. Okay? And probably, if I come back to this tab, let me just refresh this. Probably going to say stopped. Yep, it's stopped. Okay? All right, so that's stopped. All right, let's start it back up again. All right? I'm going to click that button, instance state, start instance. All right? Now it is pending, and it'll go from pending to started pretty soon. Oh, we made a mistake earlier. Shoot, it's not going to come up nicely. Darn. Okay, well, okay, it is running."
+  },
+  {
+    "start": "01:09:59",
+    "text": "All right. Notice my IP address. Uh let's see, ends in 198. Does not end in 198. So what happened?"
+  },
+  {
+    "start": "01:14:1",
+    "text": "I got a new IP address. Okay? So any time you stop an instance and start an instance, it will give up its old IP address and then grab a new IP address. Crap. Okay? So the solution to this is the elastic IPs, okay? This allows you to request an IP address, a public IP address, and then you associate it with a machine. And then if the machine goes down and comes back up, it keeps the same IP address. Okay?"
+  },
+  {
+    "start": "01:17:1",
+    "text": "All right? So, now that the IP address have changed, I have to go into Putty, change that IP address. I have to go back into my Win SCP program, change that IP address as well. Okay? Um so, again, for your homework assignment, I would suggest if you have like a block of an hour or two to do this, just don't turn the machine off, and then you can just keep the same IP address the entire time. Okay?"
+  },
+  {
+    "start": "01:21:42",
+    "text": "All right?"
+  },
+  {
+    "start": "01:21:43",
+    "text": "And it is 10:48. All right, questions about anything that we did today?"
+  },
+  {
+    "start": "01:22:51",
+    "text": "Please record yeah, it's still recording. Good."
+  },
+  {
+    "start": "01:23:44",
+    "text": "All right, then that's it for today. All right? Uh email me with questions over the weekend if you have any questions with this and we will continue talking about AWS next week."
+  }
+]
+```

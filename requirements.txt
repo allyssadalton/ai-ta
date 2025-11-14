@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+youtube-transcript-api
+sentence-transformers
+faiss-cpu
+numpy
+pydantic
+requests
+flask
+google.generativeai
+flask-cors
+PyPDF2
+PdfReader
+pydub
+AudioSegment
+yt_dlp
+ffmpeg-python
